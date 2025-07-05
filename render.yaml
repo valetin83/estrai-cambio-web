@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: estrai-cambio-web
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
+
+  - type: cron
+    name: estrai-cambio-job
+    env: python
+    plan: free
+    schedule: daily 09:00 Europe/Rome
+    buildCommand: pip install -r requirements.txt
+    startCommand: python estrai_cambio.py

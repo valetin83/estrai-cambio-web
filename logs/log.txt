@@ -1,0 +1,234 @@
+[2025-06-23 19:41:40,548] INFO: 🚀 === Avvio script estrai_eur.py ===
+[2025-06-23 19:41:40,549] INFO: 📆 Giorno valido
+[2025-06-23 19:41:40,550] INFO: ⏰ Orario valido
+[2025-06-23 19:41:40,550] INFO: 🌐 Invio GET a https://www.otpbanka.rs/en/exchange-rate/
+[2025-06-23 19:41:44,136] INFO: 💶 EUR estratto → Middle: 117,2162, Sales: 120,0294
+[2025-06-23 19:41:44,154] INFO: ✅ File CSV creato o aggiornato correttamente: C:\Users\valer\Desktop\test\report.csv
+[2025-06-23 19:41:44,154] INFO: 🏁 === Fine script con successo ===
+[2025-06-23 21:22:54,858] INFO: 🚀 === Avvio script estrai_eur.py ===
+[2025-06-23 21:22:54,858] INFO: 📆 Giorno valido
+[2025-06-23 21:22:54,858] INFO: ⏰ Orario valido
+[2025-06-23 21:22:54,867] INFO: 🌐 Invio GET a https://www.otpbanka.rs/en/exchange-rate/
+[2025-06-23 21:22:58,910] INFO: 💶 EUR estratto → Middle: 117,2162, Sales: 120,0294
+[2025-06-23 21:22:58,929] INFO: ✅ File CSV creato o aggiornato correttamente: C:\Users\valer\Desktop\test\report.csv
+[2025-06-23 21:22:58,929] INFO: 🏁 === Fine script con successo ===
+[2025-06-23 21:30:29,271] INFO: 🚀 === Avvio script estrai_eur.py ===
+[2025-06-23 21:30:29,272] INFO: 📆 Giorno valido
+[2025-06-23 21:30:29,272] INFO: ⏰ Orario valido
+[2025-06-23 21:30:29,272] INFO: 🌐 Invio GET a https://www.otpbanka.rs/en/exchange-rate/
+[2025-06-23 21:30:32,094] INFO: 💶 EUR estratto → Middle: 117,2162, Sales: 120,0294
+[2025-06-23 21:30:32,100] INFO: ✅ File CSV creato o aggiornato correttamente: C:\Users\valer\Desktop\test\report.csv
+[2025-06-23 21:30:32,101] INFO: 🏁 === Fine script con successo ===
+[2025-06-23 21:47:28,145] INFO: 🚀 === Avvio script estrai_eur.py ===
+[2025-06-23 21:47:28,146] INFO: 📆 Giorno valido
+[2025-06-23 21:47:28,146] INFO: ⏰ Orario valido
+[2025-06-23 21:47:28,146] INFO: 🌐 Invio GET a https://www.otpbanka.rs/en/exchange-rate/
+[2025-06-23 21:47:31,973] INFO: 💶 EUR estratto → Middle: 117,2162, Sales: 120,0294
+[2025-06-23 21:47:31,998] INFO: ✅ File CSV creato o aggiornato correttamente: C:\Users\valer\Desktop\test\report.csv
+[2025-06-23 21:47:31,998] INFO: 🏁 === Fine script con successo ===
+[2025-06-23 22:54:12,134] INFO: 🚀 === Avvio script estrai_eur.py ===
+[2025-06-23 22:54:12,135] INFO: 📆 Giorno valido
+[2025-06-23 22:54:12,135] INFO: ⏰ Orario valido
+[2025-06-23 22:54:12,135] INFO: 🌐 Invio GET a https://www.otpbanka.rs/en/exchange-rate/
+[2025-06-23 22:54:16,393] INFO: 💶 EUR estratto → Middle: 117,2162, Sales: 120,0294
+[2025-06-23 22:54:16,414] INFO: ✅ File CSV creato o aggiornato correttamente: C:\Users\valer\Desktop\test\report.csv
+[2025-06-23 22:54:16,414] INFO: 🏁 === Fine script con successo ===
+[2025-06-23 23:26:31,816] INFO: 🚀 === Avvio script estrai_eur.py ===
+[2025-06-23 23:26:31,816] INFO: 📆 Giorno valido
+[2025-06-23 23:26:31,816] INFO: ⏰ Orario valido
+[2025-06-23 23:26:31,817] INFO: 🌐 Invio GET a https://www.otpbanka.rs/en/exchange-rate/
+[2025-06-23 23:26:34,723] INFO: 💶 EUR estratto → Middle: 117,2162, Sales: 120,0294
+[2025-06-23 23:26:34,728] INFO: ✅ File CSV creato o aggiornato correttamente: C:\Users\valer\Desktop\test\report.csv
+[2025-06-23 23:26:34,729] INFO: 🏁 === Fine script con successo ===
+[2025-06-24 06:58:34,907] INFO: 🚀 === Avvio script estrai_eur.py ===
+[2025-06-24 06:58:34,908] INFO: 📆 Giorno valido
+[2025-06-24 06:58:34,908] ERROR: ❌ Errore in esecuzione: Esecuzione consentita tra 08:30 e 23:30. Ora: 06:58
+Traceback (most recent call last):
+  File "C:\Users\valer\Desktop\test\estrai_cambio.py", line 183, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\valer\Desktop\test\estrai_cambio.py", line 172, in main
+    check_time_window(START, END)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\valer\Desktop\test\estrai_cambio.py", line 77, in check_time_window
+    raise RuntimeError(f"Esecuzione consentita tra {start} e {end}. Ora: {now.strftime('%H:%M')}")
+RuntimeError: Esecuzione consentita tra 08:30 e 23:30. Ora: 06:58
+[2025-06-24 07:19:08,436] INFO: 🚀 === Avvio script estrai_eur.py ===
+[2025-06-24 07:19:08,437] INFO: 📆 Giorno valido
+[2025-06-24 07:19:08,437] ERROR: ❌ Errore in esecuzione: Esecuzione consentita tra 08:30 e 23:30. Ora: 07:19
+Traceback (most recent call last):
+  File "C:\Users\valer\Desktop\test\estrai_cambio.py", line 183, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\valer\Desktop\test\estrai_cambio.py", line 172, in main
+    check_time_window(START, END)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\valer\Desktop\test\estrai_cambio.py", line 77, in check_time_window
+    raise RuntimeError(f"Esecuzione consentita tra {start} e {end}. Ora: {now.strftime('%H:%M')}")
+RuntimeError: Esecuzione consentita tra 08:30 e 23:30. Ora: 07:19
+[2025-06-24 07:19:19,320] INFO: 🚀 === Avvio script estrai_eur.py ===
+[2025-06-24 07:19:19,320] INFO: 📆 Giorno valido
+[2025-06-24 07:19:19,321] ERROR: ❌ Errore in esecuzione: Esecuzione consentita tra 08:30 e 23:30. Ora: 07:19
+Traceback (most recent call last):
+  File "C:\Users\valer\Desktop\test\estrai_cambio.py", line 183, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\valer\Desktop\test\estrai_cambio.py", line 172, in main
+    check_time_window(START, END)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\valer\Desktop\test\estrai_cambio.py", line 77, in check_time_window
+    raise RuntimeError(f"Esecuzione consentita tra {start} e {end}. Ora: {now.strftime('%H:%M')}")
+RuntimeError: Esecuzione consentita tra 08:30 e 23:30. Ora: 07:19
+[2025-06-24 07:27:48,859] INFO: 🚀 === Avvio script estrai_eur.py ===
+[2025-06-24 07:27:48,859] INFO: 📆 Giorno valido
+[2025-06-24 07:27:48,859] ERROR: ❌ Errore in esecuzione: Esecuzione consentita tra 08:30 e 23:30. Ora: 07:27
+Traceback (most recent call last):
+  File "C:\Users\valer\Desktop\test\estrai_cambio.py", line 183, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\valer\Desktop\test\estrai_cambio.py", line 172, in main
+    check_time_window(START, END)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\valer\Desktop\test\estrai_cambio.py", line 77, in check_time_window
+    raise RuntimeError(f"Esecuzione consentita tra {start} e {end}. Ora: {now.strftime('%H:%M')}")
+RuntimeError: Esecuzione consentita tra 08:30 e 23:30. Ora: 07:27
+[2025-06-24 07:56:02,139] INFO: 🚀 === Avvio script estrai_eur.py ===
+[2025-06-24 07:56:02,139] INFO: 📆 Giorno valido
+[2025-06-24 07:56:02,139] ERROR: ❌ Errore in esecuzione: Esecuzione consentita tra 08:30 e 23:30. Ora: 07:56
+Traceback (most recent call last):
+  File "C:\Users\valer\Desktop\test\estrai_cambio.py", line 183, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\valer\Desktop\test\estrai_cambio.py", line 172, in main
+    check_time_window(START, END)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\valer\Desktop\test\estrai_cambio.py", line 77, in check_time_window
+    raise RuntimeError(f"Esecuzione consentita tra {start} e {end}. Ora: {now.strftime('%H:%M')}")
+RuntimeError: Esecuzione consentita tra 08:30 e 23:30. Ora: 07:56
+[2025-06-24 08:00:21,940] INFO: 🚀 === Avvio script estrai_eur.py ===
+[2025-06-24 08:00:21,940] INFO: 📆 Giorno valido
+[2025-06-24 08:00:21,940] ERROR: ❌ Errore in esecuzione: Esecuzione consentita tra 08:30 e 23:30. Ora: 08:00
+Traceback (most recent call last):
+  File "C:\Users\valer\Desktop\test\estrai_cambio.py", line 183, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\valer\Desktop\test\estrai_cambio.py", line 172, in main
+    check_time_window(START, END)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\valer\Desktop\test\estrai_cambio.py", line 77, in check_time_window
+    raise RuntimeError(f"Esecuzione consentita tra {start} e {end}. Ora: {now.strftime('%H:%M')}")
+RuntimeError: Esecuzione consentita tra 08:30 e 23:30. Ora: 08:00
+[2025-06-24 10:00:26,795] INFO: 🚀 === Avvio script estrai_eur.py ===
+[2025-06-24 10:00:26,796] INFO: 📆 Giorno valido
+[2025-06-24 10:00:26,796] INFO: ⏰ Orario valido
+[2025-06-24 10:00:26,804] INFO: 🌐 Invio GET a https://www.otpbanka.rs/en/exchange-rate/
+[2025-06-24 10:00:29,978] INFO: 💶 EUR estratto → Middle: 117,2039, Sales: 120,0168
+[2025-06-24 10:00:29,997] INFO: ✅ File CSV creato o aggiornato correttamente: C:\Users\valer\Desktop\test\report.csv
+[2025-06-24 10:00:29,998] INFO: 🏁 === Fine script con successo ===
+[2025-06-24 10:17:41,597] INFO: 🚀 === Avvio script estrai_eur.py ===
+[2025-06-24 10:17:41,597] INFO: 📆 Giorno valido
+[2025-06-24 10:17:41,598] INFO: ⏰ Orario valido
+[2025-06-24 10:17:41,598] INFO: 🌐 Invio GET a https://www.otpbanka.rs/en/exchange-rate/
+[2025-06-24 10:17:44,266] INFO: 💶 EUR estratto → Middle: 117,2039, Sales: 120,0168
+[2025-06-24 10:17:44,287] INFO: ✅ File CSV creato o aggiornato correttamente: C:\Users\valer\Desktop\test\report.csv
+[2025-06-24 10:17:44,287] INFO: 🏁 === Fine script con successo ===
+[2025-06-25 08:40:23,277] INFO: 🚀 === Avvio script estrai_eur.py ===
+[2025-06-25 08:40:23,278] INFO: 📆 Giorno valido
+[2025-06-25 08:40:23,278] INFO: ⏰ Orario valido
+[2025-06-25 08:40:23,280] INFO: 🌐 Invio GET a https://www.otpbanka.rs/en/exchange-rate/
+[2025-06-25 08:40:25,432] INFO: 💶 EUR estratto → Middle: 117,2116, Sales: 120,0247
+[2025-06-25 08:40:25,452] INFO: ✅ File CSV creato o aggiornato correttamente: C:\Users\valer\OneDrive\Documenti\Excel\Exchange-rate_OTP\report.csv
+[2025-06-25 08:40:25,452] INFO: 🏁 === Fine script con successo ===
+[2025-06-25 14:13:58,174] INFO: 🚀 === Avvio script estrai_eur.py ===
+[2025-06-25 14:13:58,176] INFO: 📆 Giorno valido
+[2025-06-25 14:13:58,177] INFO: ⏰ Orario valido
+[2025-06-25 14:13:58,199] INFO: 📌 Dati già estratti per oggi
+[2025-06-25 14:48:51,035] INFO: 🚀 === Avvio script con successo ===
+[2025-06-25 14:48:51,036] INFO: 📆 Giorno valido
+[2025-06-25 14:48:51,037] INFO: ⏰ Orario valido
+[2025-06-25 14:48:51,039] INFO: 📌 Dati già estratti per oggi
+[2025-06-25 14:50:43,347] INFO: 🚀 === Avvio script con successo ===
+[2025-06-25 14:50:43,348] INFO: 📆 Giorno valido
+[2025-06-25 14:50:43,350] INFO: ⏰ Orario valido
+[2025-06-25 14:50:43,352] INFO: 📌 Dati già estratti per oggi
+[2025-06-26 15:27:04,441] INFO: 🚀 === Avvio script con successo ===
+[2025-06-26 15:27:04,444] INFO: 📆 Giorno valido
+[2025-06-26 15:27:04,445] INFO: ⏰ Orario valido
+[2025-06-26 15:27:04,471] INFO: 🌐 Invio GET a https://www.otpbanka.rs/en/exchange-rate/
+[2025-06-26 15:27:06,283] INFO: 💶 EUR estratto → Middle: 117,2093, Sales: 120,0223
+[2025-06-26 15:27:06,291] INFO: ✅ File CSV creato o aggiornato correttamente: C:\Users\valer\OneDrive\Documenti\Excel\Exchange-rate_OTP\report.csv
+[2025-06-26 15:27:06,292] INFO: 🏁 === Fine script con successo ===
+[2025-06-27 09:33:08,392] INFO: 🚀 === Avvio script con successo ===
+[2025-06-27 09:33:08,394] INFO: 📆 Giorno valido
+[2025-06-27 09:33:08,395] INFO: ⏰ Orario valido
+[2025-06-27 09:33:08,416] INFO: 🌐 Invio GET a https://www.otpbanka.rs/en/exchange-rate/
+[2025-06-27 09:33:10,442] INFO: 💶 EUR estratto → Middle: 117,2049, Sales: 120,0178
+[2025-06-27 09:33:10,451] INFO: ✅ File CSV creato o aggiornato correttamente: C:\Users\valer\OneDrive\Documenti\Excel\Exchange-rate_OTP\report.csv
+[2025-06-27 09:33:10,453] INFO: 🏁 === Fine script con successo ===
+[2025-06-28 16:39:02,405] INFO: 🚀 === Avvio script con successo ===
+[2025-06-28 16:39:02,407] ERROR: ❌ Errore in esecuzione: Esecuzione valida solo nei giorni [0, 1, 2, 3, 4]. Oggi: 5
+Traceback (most recent call last):
+  File "C:\Users\valer\OneDrive\Documenti\Excel\Exchange-rate_OTP\estrai_cambio.py", line 194, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\valer\OneDrive\Documenti\Excel\Exchange-rate_OTP\estrai_cambio.py", line 171, in main
+    check_weekday(WEEKDAYS)
+    ~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\valer\OneDrive\Documenti\Excel\Exchange-rate_OTP\estrai_cambio.py", line 83, in check_weekday
+    raise RuntimeError(f"Esecuzione valida solo nei giorni {sorted(valid)}. Oggi: {today}")
+RuntimeError: Esecuzione valida solo nei giorni [0, 1, 2, 3, 4]. Oggi: 5
+[2025-06-30 10:42:10,659] INFO: 🚀 === Avvio script con successo ===
+[2025-06-30 10:42:10,660] INFO: 📆 Giorno valido
+[2025-06-30 10:42:10,661] INFO: ⏰ Orario valido
+[2025-06-30 10:42:10,680] INFO: 🌐 Invio GET a https://www.otpbanka.rs/en/exchange-rate/
+[2025-06-30 10:42:12,615] INFO: 💶 EUR estratto → Middle: 117,1740, Sales: 119,9862
+[2025-06-30 10:42:12,623] INFO: ✅ File CSV creato o aggiornato correttamente: C:\Users\valer\OneDrive\Documenti\Excel\Exchange-rate_OTP\report.csv
+[2025-06-30 10:42:12,623] INFO: 🏁 === Fine script con successo ===
+[2025-06-30 16:00:27,419] INFO: 🚀 === Avvio script con successo ===
+[2025-06-30 16:00:27,420] INFO: 📆 Giorno valido
+[2025-06-30 16:00:27,421] INFO: ⏰ Orario valido
+[2025-06-30 16:00:27,435] INFO: 📌 Dati già estratti per oggi
+[2025-07-01 09:40:13,902] INFO: 🚀 === Avvio script con successo ===
+[2025-07-01 09:40:13,903] INFO: 📆 Giorno valido
+[2025-07-01 09:40:13,904] INFO: ⏰ Orario valido
+[2025-07-01 09:40:13,915] INFO: 🌐 Invio GET a https://www.otpbanka.rs/en/exchange-rate/
+[2025-07-01 09:40:15,851] INFO: 💶 EUR estratto → Middle: 117,1446, Sales: 119,9561
+[2025-07-01 09:40:15,856] INFO: ✅ File CSV creato o aggiornato correttamente: C:\Users\valer\OneDrive\Documenti\Excel\Exchange-rate_OTP\report.csv
+[2025-07-01 09:40:15,856] INFO: 🏁 === Fine script con successo ===
+[2025-07-01 15:40:13,316] INFO: 🚀 === Avvio script con successo ===
+[2025-07-01 15:40:13,318] INFO: 📆 Giorno valido
+[2025-07-01 15:40:13,319] INFO: ⏰ Orario valido
+[2025-07-01 15:40:13,343] INFO: 📌 Dati già estratti per oggi
+[2025-07-02 09:41:30,389] INFO: 🚀 === Avvio script con successo ===
+[2025-07-02 09:41:30,407] INFO: 📆 Giorno valido
+[2025-07-02 09:41:30,408] INFO: ⏰ Orario valido
+[2025-07-02 09:41:30,423] INFO: 🌐 Invio GET a https://www.otpbanka.rs/en/exchange-rate/
+[2025-07-02 09:41:32,316] INFO: 💶 EUR estratto → Middle: 117,1640, Sales: 119,9759
+[2025-07-02 09:41:32,320] INFO: ✅ File CSV creato o aggiornato correttamente: C:\Users\valer\OneDrive\Documenti\Excel\Exchange-rate_OTP\report.csv
+[2025-07-02 09:41:32,321] INFO: 🏁 === Fine script con successo ===
+[2025-07-02 15:41:31,306] INFO: 🚀 === Avvio script con successo ===
+[2025-07-02 15:41:31,307] INFO: 📆 Giorno valido
+[2025-07-02 15:41:31,308] INFO: ⏰ Orario valido
+[2025-07-02 15:41:31,320] INFO: 📌 Dati già estratti per oggi
+[2025-07-03 09:43:06,208] INFO: 🚀 === Avvio script con successo ===
+[2025-07-03 09:43:06,210] INFO: 📆 Giorno valido
+[2025-07-03 09:43:06,210] INFO: ⏰ Orario valido
+[2025-07-03 09:43:06,226] INFO: 🌐 Invio GET a https://www.otpbanka.rs/en/exchange-rate/
+[2025-07-03 09:43:08,378] INFO: 💶 EUR estratto → Middle: 117,1782, Sales: 119,9905
+[2025-07-03 09:43:08,382] INFO: ✅ File CSV creato o aggiornato correttamente: C:\Users\valer\OneDrive\Documenti\Excel\Exchange-rate_OTP\report.csv
+[2025-07-03 09:43:08,383] INFO: 🏁 === Fine script con successo ===
+[2025-07-03 15:43:08,726] INFO: 🚀 === Avvio script con successo ===
+[2025-07-03 15:43:08,728] INFO: 📆 Giorno valido
+[2025-07-03 15:43:08,729] INFO: ⏰ Orario valido
+[2025-07-03 15:43:08,732] INFO: 📌 Dati già estratti per oggi
+[2025-07-04 09:33:26,788] INFO: 🚀 === Avvio script con successo ===
+[2025-07-04 09:33:26,790] INFO: 📆 Giorno valido
+[2025-07-04 09:33:26,791] INFO: ⏰ Orario valido
+[2025-07-04 09:33:26,796] INFO: 🌐 Invio GET a https://www.otpbanka.rs/en/exchange-rate/
+[2025-07-04 09:33:29,991] INFO: 💶 EUR estratto → Middle: 117,1773, Sales: 119,9896
+[2025-07-04 09:33:29,998] INFO: ✅ File CSV creato o aggiornato correttamente: C:\Users\valer\OneDrive\Documenti\Excel\Exchange-rate_OTP\report.csv
+[2025-07-04 09:33:29,999] INFO: 🏁 === Fine script con successo ===
+[2025-07-04 15:33:24,871] INFO: 🚀 === Avvio script con successo ===
+[2025-07-04 15:33:24,873] INFO: 📆 Giorno valido
+[2025-07-04 15:33:24,874] INFO: ⏰ Orario valido
+[2025-07-04 15:33:24,875] INFO: 📌 Dati già estratti per oggi
